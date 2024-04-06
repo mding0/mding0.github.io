@@ -1,0 +1,73 @@
+body {
+    background-color: lightslategray;
+    max-width: 3000px;
+    
+    color:aliceblue;
+    font-family: 'Absans', sans-serif;
+}
+
+main {
+    margin-left: 500px;
+    
+}
+
+p {
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+    color: aliceblue;
+}
+
+h1 {
+    color: rgb(204, 207, 242);
+  
+}
+
+h2 { 
+    font-family: "SpratVF";
+    font-stretch: 100%;
+    font-weight: 100;
+    transition: all 0.3s ease;
+}
+
+h2:hover {
+    font-weight: 200;
+}
+
+.pog {
+  
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    padding: 5rem;
+
+    border: ;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+
+    box-sizing: border-box;
+
+
+}
+
+.poggers {
+    font-size: 20px;
+    position: fixed;
+    font-family: 'Sprat', sans-serif;
+}
+
+@font-face {
+    font-family: 'Absans';
+    src: url(/exercises/exercise-3/font/Absans-Regular.woff2);}
+@font-face {
+    font-family: 'SpratVF';
+    src: url(/exercises/exercise-3/font/SpratVF.woff2);
+}
+@font-face {
+    font-family: 'Sprat';
+    src: url(/exercises/exercise-3/font/Sprat-Thin.woff2);
+}
+    
+}

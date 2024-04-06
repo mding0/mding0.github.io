@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    border: 1px solid red;
+    padding: 2rem;
+    flex-basis: 75%;
+    flex-grow: 1;
+    box-shadow: 10px 10px 5px red;
+   
+
+}
+
+main {
+    flex-basis: 100%;
+}
+
+header:hover {
+    background-color: aqua;
+    transition: all 1s ease;
+}
+
+ol {
+    border: 1px solid blue;
+    padding: 2rem;
+    list-style: none;
+
+}
+
+li {
+    border: 1px dotted green;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem
+}
+
+section {
+   border: 1px solid blue;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
