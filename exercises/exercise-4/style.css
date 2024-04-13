@@ -1,0 +1,101 @@
+:root {
+        --bg-color: rgb(300, 223, 50); 
+        --text-color: black;
+        --primary-color: darkgreen;
+        --second-color: khaki;
+}
+
+body {
+    display: grid;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    grid-template-columns: 400px 1fr;
+    font-family: 'Absans', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+    color: aliceblue;
+}
+
+h1 {
+    color: rgb(204, 207, 242);
+  
+}
+
+h2 { 
+    font-family: "SpratVF";
+    font-stretch: 100%;
+    font-weight: 100;
+    transition: all 0.3s ease;
+}
+
+h2:hover {
+    font-weight: 200;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    padding: 5rem;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+
+    box-sizing: border-box;
+}
+
+
+.navigation {
+    line-height: 20px;
+    font-size: 20px;
+    font-family: 'Sprat', sans-serif;
+    display: none;
+
+}
+
+body.light {
+    background-color: beige;
+    color: black;
+}
+
+body.dark {
+    background-color: black;
+    color: beige;
+}
+
+@font-face {
+    font-family: 'Absans';
+    src: url(/exercises/exercise-3/font/Absans-Regular.woff2);}
+@font-face {
+    font-family: 'SpratVF';
+    src: url(/exercises/exercise-3/font/SpratVF.woff2);
+}
+@font-face {
+    font-family: 'Sprat';
+    src: url(/exercises/exercise-3/font/Sprat-Thin.woff2);
+}
+
+@media screen and (min-width: 500px) {
+    .navigation {
+        order: 1;
+        flex-basis: 18rem;
+        position: sticky;
+        top: 1rem;
+        align-items: flex-start;
+
+    }
+
+    main {
+        order: 1;
+        flex-basis: calc(100% - 18rem);
+    }
+}
